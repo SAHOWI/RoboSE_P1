@@ -1,5 +1,7 @@
 # Udacity Robot Software Engineer - Project 1: Robot World
 
+Author: Holger Wienecke
+
 insert overview image here
 
 ## Purpose
@@ -33,7 +35,7 @@ cd $HOME/RoboSE
 
 git clone https://github.com/SAHOWI/RoboSE_P1 Project1
 cd Project1
-./run_me.sh
+./run_world.sh
 ```
 
 gazebo should open and show the world defined.
