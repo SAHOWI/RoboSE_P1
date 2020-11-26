@@ -13,7 +13,7 @@ Some words about the project.
 mkdir $HOME/RoboSE
 cd $HOME/RoboSE
 
-git clone <path to github repository - update after creation> Project1
+git clone https://github.com/SAHOWI/RoboSE_P1 Project1
 cd Project1
 ./run_me.sh
 '''
