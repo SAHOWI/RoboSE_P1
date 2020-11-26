@@ -10,6 +10,7 @@ Some words about the project.
 ## Usage
 
 Directory structure of the project.
+```code
 .
 └── Project1
     ├── CMakeLists.txt
@@ -22,6 +23,8 @@ Directory structure of the project.
     ├── script
     │   └── welcome_message.cpp
     └── world
+```
+
 
 
 ```bash
