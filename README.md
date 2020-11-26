@@ -9,14 +9,29 @@ Some words about the project.
 
 ## Usage
 
-'''bash
+Directory structure of the project.
+.
+└── Project1
+    ├── CMakeLists.txt
+    ├── README.md
+    ├── images
+    ├── model
+    │   ├── Building
+    │   └── HumanoidRobot
+    ├── run_world.sh
+    ├── script
+    │   └── welcome_message.cpp
+    └── world
+
+
+```bash
 mkdir $HOME/RoboSE
 cd $HOME/RoboSE
 
 git clone https://github.com/SAHOWI/RoboSE_P1 Project1
 cd Project1
 ./run_me.sh
-'''
+```
 
 gazebo should open and show the world defined.
 
