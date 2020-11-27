@@ -1,5 +1,12 @@
 #include <gazebo/gazebo.hh>
 
+/* ----------------------------------- */
+/* FILE:     welcome_message.cpp       */ 
+/* PURPOSE:  Sample Plugin             */
+/* AUTHOR:   Holger Wienecke, Nov/2020 */
+/* ----------------------------------- */
+
+
 namespace gazebo
 {
   class WorldPluginMyRobot : public WorldPlugin
