@@ -1,19 +1,15 @@
 #/bin/bash
 
-export MY_WORLD=`pwd` 
+echo Robo_World driver
+
 mkdir build
-cd build/
-cmake ../
+cd build
+cmake ..
+echo cleanup to ensure environment will be rebuild
+make clean
+rm *.so
 make
-echo 'build complete, ensure to add'
-echo '   <plugin name="welcome_message" filename="libwelcome_message.so"/>'
-echo 'to your world/my_world description after'
-echo '   <world name="default">'
-echo 
-echo you need to 
-echo    export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:${MY_WORLD}
-echo before you can start gazebo with
-echo    cd world
-echo    gazebo my_world 
-export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:${MY_WORLD}
+export GAZEBO_PLUGIN_PATH=`pwd`:${GAZEBO_PLUGIN_PATH}
+cd ..
+gazebo model/World/Robo_World
 
