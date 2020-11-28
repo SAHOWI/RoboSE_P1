@@ -39,9 +39,10 @@ mkdir build
 cd build
 cmake ..
 make
-export GAZEBO_PLUGIN_PATH=`pwd`:${GAZEBO_PLUGIN_PATH}
 cd ..
-gazebo model/World/Robo_World
+export GAZEBO_PLUGIN_PATH=`pwd`/build:${GAZEBO_PLUGIN_PATH}
+export GAZEBO_MODEL_PATH=./model/Building/RoboSpace-1:./model/HumanoidRobot/Robot-1/
+gazebo model/World/Robo_World.sdf
 ```
 
 alternatively
