@@ -17,6 +17,8 @@ Directory structure of the project.
 .
 ├── CMakeLists.txt
 ├── README.md
+├── World
+│   └── Robo_World.sdf
 ├── images
 │   ├── default_gzclient_camera(1)-2020-11-28T13_22_51.450631.jpg
 │   ├── default_gzclient_camera(1)-2020-11-28T13_22_57.661292.jpg
@@ -27,12 +29,10 @@ Directory structure of the project.
 │   │   └── RoboSpace-1
 │   │       ├── model.config
 │   │       └── model.sdf
-│   ├── HumanoidRobot
-│   │   └── Robot-1
-│   │       ├── model.config
-│   │       └── model.sdf
-│   └── World
-│       └── Robo_World.sdf
+│   └── HumanoidRobot
+│       └── Robot-1
+│           ├── model.config
+│           └── model.sdf
 ├── run_world.sh
 └── script
     └── welcome_message.cpp
