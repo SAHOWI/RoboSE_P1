@@ -54,7 +54,7 @@ make
 cd ..
 export GAZEBO_PLUGIN_PATH=`pwd`/build:${GAZEBO_PLUGIN_PATH}
 export GAZEBO_MODEL_PATH=./model/Building/RoboSpace-1:./model/HumanoidRobot/Robot-1/
-gazebo model/World/Robo_World.sdf
+gazebo World/Robo_World.sdf
 ```
 
 Alternatively you may just download the project files from GITHUB and execuet the driver program *run_world* which is included in the repository.
