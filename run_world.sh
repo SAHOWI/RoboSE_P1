@@ -9,7 +9,6 @@ cmake ..
 make
 echo cleanup to ensure environment will be rebuild
 make clean
-rm *.so
 make
 cd ..
 export GAZEBO_PLUGIN_PATH=`pwd`/build:${GAZEBO_PLUGIN_PATH}
