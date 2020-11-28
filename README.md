@@ -1,8 +1,8 @@
 # Udacity Robot Software Engineer - Project 1: Robot World
 
-Author: Holger Wienecke
+**Author**: Holger Wienecke
 
-First Project within the UDACITY Robotic Software Engineer is focussing on creating
+First Project within the **UDACITY Robotic Software Engineer** is focussing on creating
 world and robot simulations with GAZEBO.
 Here is a sample of my first Robot World ("Robo_World") - still room for improvment.
 
@@ -10,7 +10,7 @@ Here is a sample of my first Robot World ("Robo_World") - still room for improvm
 
 
 
-## Usage
+## Usage
 
 Directory structure of the project.
 ```code
